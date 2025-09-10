@@ -11,23 +11,23 @@ export default function App() {
         {view === "menu" && (
           <div className=" flex flex-col gap-3 justify-center items-center">
             <h1 className="text-xl font-bold text-center mb-6">
-              Milka Chepchirchir Koech's Burial
+              Daniel Kimeli Sum
             </h1>
             <p className="text-center text-sm mb-6">
-              🌟 Explore all links related to the late Milka's legacy. 🌟
+              🌟 Explore all links related to the late Daniel's legacy. 🌟
             </p>
 
             {/* ✅ Image only in home view */}
             <img
               className="w-40 mx-auto rounded-full h-40 mb-6"
-              src="https://firebasestorage.googleapis.com/v0/b/comrade-trends.appspot.com/o/milka.jpg?alt=media&token=4bd86463-c7ae-4413-b634-0628c0929ce5"
-              alt="Milka"
+              src="https://firebasestorage.googleapis.com/v0/b/comrade-trends.appspot.com/o/Screenshot_2025-09-10-09-20-05-904_org.readera-edit.jpg?alt=media&token=66261262-6fa7-4313-87d9-3a1eb22ecbfb"
+              alt="Daniel"
             />
 
             {/* Buttons that open in new tabs */}
             <button
               onClick={() =>
-                window.open("https://www.youtube.com/live/h6AMBhUIilw", "_blank")
+                window.open("https://www.youtube.com/results?search_query=one+way+media", "_blank")
               }
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
@@ -46,7 +46,7 @@ export default function App() {
             <button
               onClick={() =>
                 window.open(
-                  "https://qr.scanned.page/uploads/pdf/1756935684348_X9QsLo.pdf",
+                  "https://scanned.page/p/d2emNk",
                   "_blank"
                 )
               }
@@ -56,18 +56,25 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => window.open("https://qr.scan.page/uploads/pdf/1756936932434_KH0mU6.pdf", "_blank")}
+              onClick={() => window.open("https://scanned.page/6iE6G8", "_blank")}
+              className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
+            >
+              Wednesday and Thursday Programs
+            </button>
+
+            {/* <button
+              onClick={() => window.open("https://scanned.page/6iE6G8", "_blank")}
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
               Thursday Program
-            </button>
+            </button> */}
 
             <button
               onClick={() => window.open("https://photos.app.goo.gl/rr67GH9LcSYwXbHr9", "_blank")}
               
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Life and Times of Milka
+              Life and Times of Daniel
             </button>
 
             {/* Directions stays inside app */}
@@ -79,10 +86,10 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => window.open("https://www.youtube.com/watch?v=RAbdo7zw--c", "_blank")}
+              onClick={() => window.open("https://www.youtube.com/results?search_query=one+way+media", "_blank")}
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Thursday Livestream
+              Wednesday Livestream
             </button>
           </div>
         )}
