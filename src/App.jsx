@@ -27,11 +27,11 @@ export default function App() {
             {/* Buttons that open in new tabs */}
             <button
               onClick={() =>
-                window.open("https://www.youtube.com/results?search_query=one+way+media", "_blank")
+                window.open("https://www.youtube.com/", "_blank")
               }
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Final Burial Livestream
+              Final Burial Livestream coming soon!
             </button>
 
             <button
@@ -70,11 +70,11 @@ export default function App() {
             </button> */}
 
             <button
-              onClick={() => window.open("https://photos.app.goo.gl/rr67GH9LcSYwXbHr9", "_blank")}
+              onClick={() => window.open("https://", "_blank")}
               
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Life and Times of Daniel
+              Life and Times of Daniel coming Soon!
             </button>
 
             {/* Directions stays inside app */}
@@ -86,7 +86,7 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => window.open("https://www.youtube.com/results?search_query=one+way+media", "_blank")}
+              onClick={() => window.open("https://www.youtube.com/live/9wFA6Sw3iwU?si=hMontbKEx6Oknw41", "_blank")}
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
               Wednesday Livestream
