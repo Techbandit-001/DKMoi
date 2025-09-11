@@ -27,11 +27,11 @@ export default function App() {
             {/* Buttons that open in new tabs */}
             <button
               onClick={() =>
-                window.open("https://www.youtube.com/", "_blank")
+                window.open("https://www.youtube.com/watch?v=PY0qcx_5Kbs/", "_blank")
               }
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Final Burial Livestream coming soon!
+              Final Burial Livestream
             </button>
 
             <button
@@ -70,11 +70,11 @@ export default function App() {
             </button> */}
 
             <button
-              onClick={() => window.open("https://", "_blank")}
+              onClick={() => window.open("https://photos.app.goo.gl/rx3zEdGUUfVJYhdLA", "_blank")}
               
               className="w-full px-4 py-3 rounded-full border border-gray-600 hover:bg-gray-800 transition"
             >
-              Life and Times of Daniel coming Soon!
+              Life and Times of Daniel
             </button>
 
             {/* Directions stays inside app */}
